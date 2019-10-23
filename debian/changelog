@@ -1,3 +1,17 @@
+intelmq-fody-backend (0.6.4) unstable; urgency=medium
+
+  * Events:
+    - Enhance endpoints `./search?`, `./export?` to allow searching by
+      columns from joined `directives` and `sent` tables for symmetry with the
+      tickets backend. Add example for searching for `recipient_group` in
+      `aggregate_identifier`.
+
+  * Contactdb:
+    - Enhance endpoint `./annotation/search?tag=` to additionally search for
+      email tags and return organisations with those email addresses.
+
+ -- Sascha Wilde <wilde@intevation.de>  Wed, 23 Oct 2019 10:14:19 +0200
+
 intelmq-fody-backend (0.6.3.1) unstable; urgency=medium
 
   * Use correct column name when determining the default tags

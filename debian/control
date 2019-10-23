@@ -10,7 +10,7 @@ Package: intelmq-fody-backend
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}, python3-psycopg2,
  python3-hug (>= 2.2.0), python3, apache2, apache2-utils,
- libapache2-mod-wsgi-py3, adduser, intelmq-fody (>= 0.6.6),
+ libapache2-mod-wsgi-py3, adduser, intelmq-fody (>= 0.6.7),
  intelmq-mailgen (>= 0.95)
 Conflicts: intelmq-db-api, intelmq-fody-api
 Replaces: intelmq-db-api, intelmq-fody-api
